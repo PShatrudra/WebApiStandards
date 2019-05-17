@@ -24,7 +24,7 @@ namespace WebApiStandards.Controllers
         //ActionResult<T>
 
 
-        private List<Product> products = new List<Product>() { new Product() { Id = 1, Name = "Mobile" }, new Product() { Id = 2, Name = "TV" } };
+        private readonly List<Product> products = new List<Product>() { new Product() { Id = 1, Name = "Mobile" }, new Product() { Id = 2, Name = "TV" } };
 
         /// <summary>
         /// Get Method
