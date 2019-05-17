@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>WebApiStandards</PackageId>
+    <Company>WebApiStandards</Company>
+    <Authors>WebApiStandards</Authors>
+    <Product>WebApiStandards</Product>
+    <AssemblyName>WebApiStandards</AssemblyName>
+    <RootNamespace>WebApiStandards</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
